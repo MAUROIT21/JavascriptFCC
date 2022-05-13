@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - FUNCTIONAL PROGRAMING</title>
+    <link rel="stylesheet" href="estilos CSS/funcional.css">
+</head>
+<body>
+    <p>
+        <h3> APUNTES Y EXPLICACIONES
+          <ul>
+            <li>La programación funcional es un estilo de programación donde las soluciones son funciones simples y aisladas, sin efectos secundarios fuera del alcance de la función:INPUT -> PROCESS -> OUTPUT</li>
+            <ol>
+                <li>Funciones aisladas: no depende del estado del programa, que incluye variables globales que están sujetas a cambios.</li>
+                <li>Funciones puras: la misma entrada siempre da la misma salida</li>
+                <li>Funciones con efectos secundarios limitados: cualquier cambio o mutación en el estado del programa fuera de la función se controla cuidadosamente</li>
+            </ol>
+            <ul>
+                <li>
+                    Tipos de funciones: callbacks, de primera clase, de orden superior, lambda
+                </li>
+                <li>Las devoluciones de llamada (callbacks) son las funciones que se deslizan o pasan a otra función para decidir la invocación de esa función. </li>
+                <li>Las funciones que se pueden asignar a una variable, pasar a otra función o devolver desde otra función como cualquier otro valor normal, se denominan funciones de primera clase . En JavaScript, todas las funciones son funciones de primera clase.</li>
+                <li>Las funciones que toman una función como argumento o devuelven una función como valor de retorno se denominan funciones de orden superior .</li>
+                <li>Cuando las funciones se pasan o se devuelven desde otra función, las funciones que se pasaron o se devolvieron se pueden llamar lambda .</li>
+                <li>Un estilo imperativo en la programación es aquel que le da a la computadora un conjunto de declaraciones para realizar una tarea.</li>
+                <li>En contraste, la programación funcional es una forma de programación declarativa. Le dices a la computadora lo que quieres que haga llamando a un método o función.</li>
+                <li>JavaScript ofrece muchos métodos predefinidos que manejan tareas comunes, por lo que no necesita escribir cómo debe realizarlas la computadora. Por ejemplo: el metodo map() que maneja los detalles de como operar sobre una matriz.</li>
+                <li>Uno de los principios básicos de la programación funcional es no cambiar las cosas. Los cambios conducen a errores. Es más fácil prevenir errores sabiendo que sus funciones no cambian nada, incluidos los argumentos de la función o cualquier variable global.</li>
+                <li>Recuerde que en la programación funcional, cambiar o alterar cosas se llama mutación , y el resultado se llama efecto secundario . Una función, idealmente, debería ser una función pura , lo que significa que no causa ningún efecto secundario.</li>
+                <li>Otro principio de la programación funcional es declarar siempre tus dependencias explícitamente. Esto significa que si una función depende de la presencia de una variable u objeto, pase esa variable u objeto directamente a la función como argumento.</li>
+                <li>Functions are considered first class objects in JavaScript, which means they can be used like any other object. They can be saved in variables, stored in an object, or passed as function arguments.</li>
+            </ul>
+          </ul>
+        </h3>
+    </p>
+    <script src="funcional.js"></script>
+</body>
+</html>
